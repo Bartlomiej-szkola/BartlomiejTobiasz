@@ -88,14 +88,14 @@ main h1{
     color: #FA9218;
 }
 header{
-  width: 100vw;
+  width: 100%;
   margin: 0;
 }
 footer{
   position: absolute;
   bottom: 0;
   height: 10vh;
-  width: 100vw;
+  width: 100%;
   background-color: gray;
   margin: 0;
   text-align: center;
@@ -178,7 +178,7 @@ th{
 }
 #zdj7C{
   max-width: 529px;
-  max-height: 736;
+  max-height: 736px;
   width: 40vh;
 }
 
