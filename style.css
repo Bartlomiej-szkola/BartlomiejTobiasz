@@ -204,7 +204,6 @@ ol.lista, ul.lista{
 }
 
 .wiecej{
-  /* height: 200px; */
   width: 200px;
   position: fixed;
   top: 30%;
@@ -351,4 +350,30 @@ body.galeria .demo {
 body.galeria .active,
 body.galeria .demo:hover {
   opacity: 1;
+}
+
+@media (max-width: 1200px) {
+  body.galeria .column {
+    width: 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  body.galeria .column {
+    width: 33.33%;
+  }
+  body.galeria .mySlides img {
+    height: auto;
+    max-height: 50vh;
+  }
+}
+
+@media (max-width: 480px) {
+  body.galeria .column {
+    width: 50%;
+  }
+  body.galeria .mySlides img {
+    height: auto;
+    max-height: 40vh;
+  }
 }
