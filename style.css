@@ -223,6 +223,7 @@ ol.lista, ul.lista{
   color: orange;
 }
 .wiecej a{
+  color: white;
   display: block;
   margin: 10px 0;
 }
