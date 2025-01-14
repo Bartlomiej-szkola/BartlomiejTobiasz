@@ -57,17 +57,7 @@ nav .icon {
   }
 }
 
-@media (max-width: 1200px){
-  body{background-color: #CCC;}
-  .tabela{font-size: 14px;}
-}
-@media (max-width: 600px){
-  body{background-color: #EEE;}
-  iframe{
-    width: 80vw;
-  }
-  .tabela{font-size: 12px;}
-}
+
 
 @keyframes animacja {
   0% {
@@ -211,4 +201,52 @@ ol.lista, ul.lista{
   margin-right: auto;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.wiecej{
+  /* height: 200px; */
+  width: 200px;
+  position: fixed;
+  top: 30%;
+  right: 0;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+.wiecej a:visited{
+  color: white;
+}
+.wiecej a:hover{
+  color: orange;
+}
+.wiecej a{
+  display: block;
+  margin: 10px 0;
+}
+
+@media (max-width: 1200px){
+  body{background-color: #CCC;}
+  .tabela{font-size: 14px;}
+  .wiecej{
+    position: relative;
+    width: 500px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+@media (max-width: 600px){
+  body{background-color: #EEE;}
+  iframe{
+    width: 80vw;
+  }
+  .tabela{font-size: 12px;}
+  .wiecej{
+    position: relative;
+    width: 80vw;
+    margin: auto auto;
+    align-self: center;
+  }
 }
