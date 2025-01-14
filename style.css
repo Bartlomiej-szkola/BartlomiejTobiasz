@@ -42,7 +42,7 @@ nav .icon {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 1200px) {
   nav.responsive {position: relative;}
   nav.responsive .icon {
     position: absolute;
