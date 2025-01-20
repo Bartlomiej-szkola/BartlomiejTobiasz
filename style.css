@@ -34,6 +34,54 @@ nav .icon {
   display: none;
 }
 
+.open-button {
+  display: none;
+  overflow: hidden;
+  background-color: #333;
+  color: #f2f2f2;
+  padding: 14px 16px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #F7B160;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 1200px)
+  {
+    .topnav {visibility:hidden; display: none;}
+    .open-button {visibility: visible; display: block;}
+  }
+
 @media screen and (max-width: 600px) {
   nav a:not(:first-child) {display: none;}
   nav a.icon {
@@ -43,6 +91,8 @@ nav .icon {
 }
 
 @media screen and (max-width: 600px) {
+  .topnav {visibility:visible; display: block;}
+  .open-button {display: none;}
   nav.responsive {position: relative;}
   nav.responsive .icon {
     position: absolute;
