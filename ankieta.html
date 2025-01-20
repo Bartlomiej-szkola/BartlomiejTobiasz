@@ -11,11 +11,18 @@
     <meta name="creation-date" content="13.01.2025">
 </head>
 <body>
+    <div onclick="openNav()" class="open-button">
+        <i class="fa fa-bars"></i>
+    </div>
     <nav class="topnav">
         <a href="index.html" class="active">Dom</a>
-      </nav>
+    </nav>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Dom</a>
+      </div>
 
-    <div class="main">
+    <main>
         <h1>Ankieta</h1>
         <form action="mailto:bartlomiej.tobiasz@tm1.edu.pl" method="post">
             <h3>Czy widziałeś kiedyś jakiś cud świata?</h3>
@@ -38,7 +45,7 @@
             <input type="reset" value="Wyczyść formularz">
             <input type="submit" value="Wyślij formularz">
         </form>
-    </div>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>

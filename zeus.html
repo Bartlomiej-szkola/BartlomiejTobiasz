@@ -13,6 +13,9 @@
 </head>
 <body>
   <header>
+    <div onclick="openNav()" class="open-button">
+      <i class="fa fa-bars"></i>
+    </div>
     <nav class="topnav">
       <a href="index.html" class="active">Dom</a>
       <a href="#wprowadzenie">Wprowadzenie</a>
@@ -21,12 +24,18 @@
       <i class="fa fa-bars"></i>
       </a>
     </nav>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html" class="active">Dom</a>
+      <a href="#wprowadzenie">Wprowadzenie</a>
+      <a href="#mapa">Mapa</a>
+    </div>
     <div id="logo">
       <h1>Posąg Zeusa w Olimpii</h1>
     </div>
   </header>
     <main>
-        <h2><a id="wprowadzenia">Wprowadzenie</a></h2>
+        <h2><a id="wprowadzenie">Wprowadzenie</a></h2>
         <p>Posąg Zeusa w Olimpii był jednym z najwspanialszych dzieł sztuki starożytnej Grecji, wykonanym przez rzeźbiarza Fidiasza około 435 roku p.n.e. Stał w świątyni Zeusa w Olimpii, będącej miejscem starożytnych igrzysk olimpijskich.</p>
         <ul>
           <li>Posąg mierzył 12 metrów wysokości i był wykonany z kości słoniowej oraz złota.</li>
