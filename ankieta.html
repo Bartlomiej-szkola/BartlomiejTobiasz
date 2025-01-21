@@ -23,28 +23,30 @@
       </div>
 
     <main>
-        <h1>Ankieta</h1>
-        <form action="mailto:bartlomiej.tobiasz@tm1.edu.pl" method="post">
-            <h3>Czy widziałeś kiedyś jakiś cud świata?</h3>
-            <input type="radio" id="tak" name="odwiedzone" value="tak"><label for="tak">Tak</label><br>
-            <input type="radio" id="nie" name="odwiedzone" value="nie"><label for="nie">Nie</label> <br>
+        <section>
+            <h1>Ankieta</h1>
+            <form action="mailto:bartlomiej.tobiasz@tm1.edu.pl" method="post">
+                <h3>Czy widziałeś kiedyś jakiś cud świata?</h3>
+                <input type="radio" id="tak" name="odwiedzone" value="tak"><label for="tak">Tak</label><br>
+                <input type="radio" id="nie" name="odwiedzone" value="nie"><label for="nie">Nie</label> <br>
 
-            <h3><label for="ocena">Oceń 7 cudów świata od 1 do 10</label></h3>
-            <input name="ocena" id="ocena" type="range" min="1" max="10" step="1">
-            <span id="ocenaWartosc"></span><br>
+                <h3><label for="ocena">Oceń 7 cudów świata od 1 do 10</label></h3>
+                <input name="ocena" id="ocena" type="range" min="1" max="10" step="1">
+                <span id="ocenaWartosc"></span><br>
 
-            <h3>Wybierz interesujące ciebie cuda świata</h3>
-            <input type="checkbox" id="c1" name="c" value="c1"><label for="c1">Piramida Cheopsa</label><br>
-            <input type="checkbox" id="c2" name="c" value="c2"><label for="c2">Latarnia w Faros</label> <br>
-            <input type="checkbox" id="c3" name="c" value="c3"><label for="c3">Mauzoleum w Halikarnasie</label><br>
+                <h3>Wybierz interesujące ciebie cuda świata</h3>
+                <input type="checkbox" id="c1" name="c" value="c1"><label for="c1">Piramida Cheopsa</label><br>
+                <input type="checkbox" id="c2" name="c" value="c2"><label for="c2">Latarnia w Faros</label> <br>
+                <input type="checkbox" id="c3" name="c" value="c3"><label for="c3">Mauzoleum w Halikarnasie</label><br>
 
-            <h3><label for="naj">Co najbardziej podoba ci się w Piramidzie Cheopsa?</label></h3>
-            <textarea name="naj" id="naj" cols="15" rows="7" maxlength="100"></textarea>
+                <h3><label for="naj">Co najbardziej podoba ci się w Piramidzie Cheopsa?</label></h3>
+                <textarea name="naj" id="naj" cols="15" rows="7" maxlength="100"></textarea>
 
-            <br><br>
-            <input type="reset" value="Wyczyść formularz">
-            <input type="submit" value="Wyślij formularz">
-        </form>
+                <br><br>
+                <input type="reset" value="Wyczyść formularz">
+                <input type="submit" value="Wyślij formularz">
+            </form>
+        </section>
     </main>
     <script src="script.js"></script>
 </body>
